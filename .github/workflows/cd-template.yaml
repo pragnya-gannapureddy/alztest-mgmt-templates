@@ -94,7 +94,7 @@ jobs:
     needs: plan
     name: Apply with Terraform
     runs-on:
-      self-hosted
+      ubuntu-latest
     concurrency: mgmt-tfstate
     environment: alztest-mgmt-apply
     permissions:
